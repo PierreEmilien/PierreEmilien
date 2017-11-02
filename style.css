@@ -3,6 +3,7 @@ body {
   color: red;
   width: 500px;
   border: 1px solid black;
+  background-image: url("images/C.jpg");
 }
 
 a {
@@ -12,4 +13,24 @@ a {
 
 p {
   font-size: 9px;
+}
+
+img {
+  margin-left: 10px;
+  width: 150px;
+}
+
+img:first-child {
+  margin-left: 0px;
+
+
+p img {
+  border: 10px green solid;
+  margin-left: 3px;
+}
+
+#chaussure-verte {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
