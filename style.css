@@ -4,3 +4,12 @@ body {
   width: 500px;
   border: 1px solid black;
 }
+
+a {
+  color: green;
+  text-decoration: none;
+}
+
+p {
+  font-size: 9px;
+}
